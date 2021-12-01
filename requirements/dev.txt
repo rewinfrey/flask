@@ -54,7 +54,7 @@ packaging==20.9
     #   pytest
     #   sphinx
     #   tox
-pallets-sphinx-themes==2.0.0rc1
+pallets-sphinx-themes==2.0.2
     # via -r requirements/docs.in
 pep517==0.10.0
     # via pip-tools
@@ -92,10 +92,6 @@ six==1.15.0
     #   virtualenv
 snowballstemmer==2.1.0
     # via sphinx
-sphinx-issues==1.2.0
-    # via -r requirements/docs.in
-sphinx-tabs==2.1.0
-    # via -r requirements/docs.in
 sphinx==3.5.4
     # via
     #   -r requirements/docs.in
@@ -103,6 +99,10 @@ sphinx==3.5.4
     #   sphinx-issues
     #   sphinx-tabs
     #   sphinxcontrib-log-cabinet
+sphinx-issues==1.2.0
+    # via -r requirements/docs.in
+sphinx-tabs==2.1.0
+    # via -r requirements/docs.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
